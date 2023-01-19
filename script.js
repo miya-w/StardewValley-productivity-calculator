@@ -98,7 +98,7 @@ function myFunction() {
         var KegTime = " 4 Days(6000 mins)"
         var KegProfit = + Number.parseInt(KegPrice / 4);
       break;
-      case "GreenBean ":
+      case "GreenBean":
         sellPrice = GreenBean;
         var JarPrice = GreenBean * 2 + 50;
         var KegPrice = GreenBean * 2.25;
