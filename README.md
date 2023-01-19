@@ -1,5 +1,5 @@
 # Stardew Valley Keg & Jar Productivity calculator
-![img-STV](https://github.com/miya-w/StardewValley-productivity-calculator/blob/main/img/STV-calculator.png width="300" height="300"/)
+<img src="https://github.com/miya-w/StardewValley-productivity-calculator/blob/main/img/STV-calculator.png" width="300" height="300">
 
 This simle Keg & Jar Productivity calculator for Stardew valley, is for the user compare the profit, time comsuming, and daily profit between the Keg and Preserve Jar.
 
