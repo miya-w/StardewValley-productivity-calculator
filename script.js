@@ -14,7 +14,7 @@ function myFunction() {
     console.log(selectedCorp);
     
     // Spring Corp
-    var Parsnip = 35;
+  
     var Cauliflower = 175;
     var CoffeeBean =  15;
     var Garlic =  60;
@@ -37,10 +37,10 @@ function myFunction() {
 
     //Fall Corps
     var Amaranth = 150;
-    var Artichoke= 160;
+    var Artichoke = 160;
     var Beet = 100;
     var BokChoy = 80;
-    var CranBerry = 75;
+    var Cranberry = 75;
     var Eggplant = 60;
     var Grape = 80;
     var Pumpkin = 320;
@@ -64,15 +64,15 @@ function myFunction() {
     var KegTime;
 
     switch(selectedCorp) {
-      case " Parsnip ":
+      case "Parsnip":
         sellPrice = Parsnip;
-        var JarPrice = 35 * 2 + 50;
-        var KegPrice = 35 * 2.25;
+        var JarPrice = Parsnip * 2 + 50;
+        var KegPrice = Parsnip * 2.25;
         var JarTime = "2-3days(4000 mins)";
         var JarProfit= Number.parseInt(JarPrice / 3);
         var KegTime = " 4 Days(6000 mins)"
         var KegProfit = + Number.parseInt(KegPrice / 4);
-      
+    
       break;
       case "Cauliflower":
         sellPrice = Cauliflower;
@@ -82,8 +82,7 @@ function myFunction() {
           var JarProfit= Number.parseInt(JarPrice / 3);
           var KegTime = " 4 Days(6000 mins)"
           var KegProfit = + Number.parseInt(KegPrice / 4);
-          // var JarProduce = Pickle;
-          // var KegProduce = Juice ;
+   
       break;
       // case "CoffeeBean":
       //   sellPrice = CoffeeBean;
@@ -92,8 +91,8 @@ function myFunction() {
       // break;
       case "Garlic":
         sellPrice = Garlic;
-        var JarPrice = 60 * 2 + 50;
-        var KegPrice = 60 * 2.25;
+        var JarPrice = Garlic * 2 + 50;
+        var KegPrice = Garlic * 2.25;
         var JarTime = "2-3days(4000 mins)";
         var JarProfit= Number.parseInt(JarPrice / 3);
         var KegTime = " 4 Days(6000 mins)"
@@ -101,12 +100,12 @@ function myFunction() {
       break;
       case "GreenBean ":
         sellPrice = GreenBean;
-        var JarPrice = 40 * 2 + 50;
-        var KegPrice = 40 * 2.25;
+        var JarPrice = GreenBean * 2 + 50;
+        var KegPrice = GreenBean * 2.25;
         var JarTime = "2-3days(4000 mins)";
         var JarProfit= Number.parseInt(JarPrice / 3);
         var KegTime = " 4 Days(6000 mins)"
-        var KegProfit = + Number.parseInt(KegPrice / 4);
+        var KegProfit =  Number.parseInt(KegPrice / 4);
       break;
       case "Kale":
         sellPrice = Kale;
@@ -115,12 +114,12 @@ function myFunction() {
         var JarTime = "2-3days(4000 mins)";
         var JarProfit= Number.parseInt(JarPrice / 3);
         var KegTime = " 4 Days(6000 mins)"
-        var KegProfit = + Number.parseInt(KegPrice / 4);
+        var KegProfit = Number.parseInt(KegPrice / 4);
       break;
       case "Potato":
-        sellPrice = Potato;
-        var JarPrice = 80 * 2 + 50;
-        var KegPrice = 80 * 2.25;
+        sellPrice = Garlic;
+        var JarPrice = Garlic * 2 + 50;
+        var KegPrice = Garlic * 2.25;
         var JarTime = "2-3days(4000 mins)";
         var JarProfit= Number.parseInt(JarPrice / 3);
         var KegTime = " 4 Days(6000 mins)"
@@ -128,17 +127,17 @@ function myFunction() {
       break;
       case "Rhubarb":
         sellPrice = Rhubarb;
-        var JarPrice = 200 * 2 + 50;
-        var KegPrice = 200 * 2.25;
+        var JarPrice = Rhubarb* 2 + 50;
+        var KegPrice = Rhubarb* 2.25;
         var JarTime = "2-3days(4000 mins)";
         var JarProfit= Number.parseInt(JarPrice / 3);
         var KegTime = " 4 Days(6000 mins)"
-        var KegProfit = + Number.parseInt(KegPrice / 4);
+        var KegProfit =  Number.parseInt(KegPrice / 4);
       break;
       case "Strawberry":
         sellPrice = Strawberry;
-        var JarPrice = 120 * 2 + 50;
-        var KegPrice = 120 * 2.25;
+        var JarPrice = Strawberry * 2 + 50;
+        var KegPrice = Strawberry * 2.25;
         var JarTime = "2-3days(4000 mins)";
         var JarProfit= Number.parseInt(JarPrice / 3);
         var KegTime = "  6.25 Days(10000 mins)"
@@ -230,6 +229,16 @@ function myFunction() {
       var KegProfit = + Number.parseInt(KegPrice / 4);
     break;
 
+    case "Artichoke":
+      sellPrice = Artichoke;
+      var JarPrice = Artichoke  * 2 + 50;
+      var KegPrice = Artichoke  * 2.25;
+      var JarTime = "2-3days(4000 mins)";
+      var JarProfit= Number.parseInt(JarPrice / 3);
+      var KegTime = " 4 Days(6000 mins)"
+      var KegProfit = + Number.parseInt(KegPrice / 4);
+    break;
+
     case "Beet":
       sellPrice = Beet;
       var JarPrice = Beet * 2 + 50;
@@ -238,7 +247,7 @@ function myFunction() {
       var JarProfit= Number.parseInt(JarPrice / 3);
       var KegTime = " 4 Days(6000 mins)"
       var KegProfit = + Number.parseInt(KegPrice / 4);
-    brea
+    break
     case "BokChoy":
       sellPrice = BokChoy;
       var JarPrice = BokChoy * 2 + 50;
@@ -249,8 +258,8 @@ function myFunction() {
       var KegProfit = + Number.parseInt(KegPrice / 4);
     break
 
-    case "CranBerry":
-      sellPrice = CranBerry;
+    case "Cranberry":
+      sellPrice = Cranberry;
       var JarPrice = 120 * 2 + 50;
       var KegPrice = 120 * 2.25;
       var JarTime = "2-3days(4000 mins)";
@@ -389,125 +398,3 @@ function myFunction() {
 
 
 
-
-
-  // sellPrice = Parsnip;
-  // var JarPrice = 35 * 2 + 50;
-  // var JarTime = "2-3days(4000 mins)";
-  // var JarProfit= jarprice / 3;
-  // var KegPrice = 35 * 2.25;
-  // var KegTime = "4 Days"
-  // var KegProfit = KegPrice / 4
-
-  // var Parsnip = 35;
-  //   var Cauliflower = 175;
-  //   var CoffeeBean =  15;
-  //   var Garlic =  60;
-  //   var GreenBean = 40;
-  //   var Kale = 110;
-  //   var Parsnip =35; 
-  //   var Potato = 80;
-  //   var Rhubarb = 220;
-  //   var Strawberry = 120;
-
-    // if(x = Parsnip ){
-    //     var JarPrice = 35 * 2 + 50;
-    //     var KegPrice = 35 * 2.25;
-    // }
-    // else(x = Cauliflower ){
-    //     var JarPrice = 175 * 2 + 50;
-    //     var KegPrice = 175 * 2.25;
-    // }
-    // (x = CoffeeBean ){
-    //     var JarPrice = " >_< CoffeeBean is not for the keg >_<"
-    //     var KegPrice = 150;
-    // }
-    // if(x = Garlic ){
-    //     var JarPrice = 60 * 2 + 50;
-    //     var KegPrice = 60 * 2.25;
-    // }
-    // if(x = GreenBean){
-    //     var JarPrice = GreenBean * 2 + 50;
-    //     var KegPrice = GreenBean * 2.25;
-    // }
-    // if(x = Kale){
-    //     var JarPrice = Kale * 2 + 50;
-    //     var KegPrice = Kale * 2.25;
-    // }
-    // if(x = Potato ){
-    //     var JarPrice = Potato  * 2 + 50;
-    //     var KegPrice = Potato  * 2.25;
-    // }
-    // if(x = Rhubarb ){
-    //     var JarPrice = Rhubarb  * 2 + 50;
-    //     var KegPrice = Rhubarb * 2.25;
-    // }
-    // if(x = Strawberry){
-    //     var JarPrice = Strawberry  * 2 + 50;
-    //     var KegPrice = Strawberry * 2.25;
-    // }
-    
-
-
-// function run() {
-//     document.getElementById("spring").value = document.getElementById("spring").value;
-//     comsole.log()
-// }
-
-
-// var values = Array.from(document.querySelectorAll('select[name="lstparameters"] > optgroup')).map(el => el.getAttribute('value'));
-
-// alert(values);
-
-
-// Crop List
-var crops = {
-"parsnip": {
-    "name": "Parsnip",
-    "url": "http://stardewvalleywiki.com/Parsnip",
-    "img": "parsnip.png",
-    "seeds": {
-      "pierre": 20,
-      "joja": 25,
-      "special": 0,
-      "specialLoc": "",
-      "specialUrl": ""
-    },
-    "growth": {
-      "initial": 4,
-      "regrow": 0
-    },
-    "produce": {
-      "extra": 0,
-      "extraPerc": 0,
-      "price": 35,
-      "jarType": "Pickles",
-      "kegType": "Juice"
-    }
-  },
-
-  "cauliflower": {
-    "name": "Cauliflower",
-    "url": "http://stardewvalleywiki.com/Cauliflower",
-    "img": "cauliflower.png",
-    "seeds": {
-      "pierre": 80,
-      "joja": 100,
-      "special": 0,
-      "specialLoc": "",
-      "specialUrl": ""
-    },
-    "growth": {
-      "initial": 12,
-      "regrow": 0
-    },
-    "produce": {
-      "extra": 0,
-      "extraPerc": 0,
-      "price": 175,
-      "jarType": "Pickles",
-      "kegType": "Juice"
-    }
-  },
-
-}
