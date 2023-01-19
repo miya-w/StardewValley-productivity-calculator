@@ -3,7 +3,7 @@
 
 -> Go to [Stardew Valley Keg & Jar Productivity calculator](https://miya-w.github.io/StardewValley-productivity-calculator/)
 
-This simle Keg & Jar Productivity calculator for Stardew valley, is for the user compare the profit, time comsuming, and daily profit between the Keg and Preserve Jar.
+This simple ,Keg & Jar Productivity calculator for Stardew valley, is for the users compare the profit, time comsuming, and daily profit between the Keg and Preserve Jar in Stardew valley.
 
 All the calculated prices are based on the basic price, If you are Artisan, the price is +40%.
 
